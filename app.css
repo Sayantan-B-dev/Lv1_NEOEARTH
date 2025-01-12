@@ -1,0 +1,58 @@
+body{
+    background-color: #000000;
+    font-family: Nunito,sans-serif   ;
+}
+h2{
+    color: #fffdfd;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+#mainNavbar  .navbar-brand{
+    color: #ea1c2c;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#mainNavbar  .nav-link{
+    color: white;
+    font-size: 1rem;
+    font-weight: 100;
+}
+#mainNavbar  .nav-link:hover{
+    color: #ea1c2c;
+}
+#headingGroup h2{
+    font-weight: 100;
+    font-size: 4rem;
+}
+@media (max-width:1200px){
+    #headingGroup h2{
+    font-size: 3rem;
+}
+}
+#headingGroup span{
+    color: rgb(114, 22, 22);
+}
+.Hero p{
+    color:#9b8990;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 2rem;
+}
+
+.content{
+    margin-top:100px;
+}
+.content3{
+    margin-bottom:100px;
+}
+.navbar.scrolled{
+    background: rgb(0, 0, 0);
+    box-shadow: 0px 2px 10px white;
+    transition: all 500ms;
+}
+footer{
+    color:white;
+    background:rgb(0, 0, 0);
+    box-shadow: 0px 2px 10px white;
+}
